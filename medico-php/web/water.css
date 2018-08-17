@@ -1,0 +1,25 @@
+.water-mark-utehn{
+    position: fixed;
+    top: 55%;
+    left: 35%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index:9999;
+    color:green;
+    opacity: 0.3;
+
+    /* Safari */
+    -webkit-transform: rotate(-60deg);
+    /* Firefox */
+    -moz-transform: rotate(-60deg);
+    /* IE */
+    -ms-transform: rotate(-60deg);
+    /* Opera */
+    -o-transform: rotate(-60deg);
+}
+
